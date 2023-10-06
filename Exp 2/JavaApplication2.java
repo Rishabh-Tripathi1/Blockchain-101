@@ -1,7 +1,7 @@
 // Java implementation for Generating
 // and verifying the digital signature
 
-package com.mycompany.javaapplication1;
+package javaapplication2;
 
 // Imports
 import java.security.KeyPair;
@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 import javax.xml.bind.DatatypeConverter;
 
-public class JavaApplication1 {
+public class JavaApplication2 {
 
 	// Signing Algorithm
 	private static final String
@@ -80,10 +80,9 @@ public class JavaApplication1 {
 		throws Exception
 	{
 
-		String input
-			= "Microsoft"
-			+ "Learn";
-                String input1="Mumbai";
+		String input = "Delhi";
+                
+                String input1 = "Mumbai";
 		KeyPair keyPair
 			= Generate_RSA_KeyPair();
 
